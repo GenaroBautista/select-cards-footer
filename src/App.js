@@ -12,25 +12,24 @@ import ProfileCard from "./componet/ProfileCard";
 
 function App() {
   return (
-     
     <div>
-     < Animal />    
+      <Animal />
 
       <section className="hero is-primary">
         <div className="hero-body">
-        <p>Personal Digital Assistants</p>
+          <p>Personal Digital Assistants</p>
         </div>
       </section>
-      
+
       <div className="container">
         <section className="section">
           <div className="columns">
             <div className="column is-4">
-              <ProfileCard 
-              title="ALexa" 
-              handle="@alexa99"
-               image={AlexaImage}
-               description="Alexa was created by Amazon and helps you buy things,"
+              <ProfileCard
+                title="ALexa"
+                handle="@alexa99"
+                image={AlexaImage}
+                description="Alexa was created by Amazon and helps you buy things,"
               />
             </div>
 
@@ -44,12 +43,12 @@ function App() {
             </div>
 
             <div className="column is-4">
-              <ProfileCard 
-              title="Siri"
-               handle="@Siri01" 
-               image={siriImage}
-               description="Siri was made bu Apple and is being phased put"
-               />
+              <ProfileCard
+                title="Siri"
+                handle="@Siri01"
+                image={siriImage}
+                description="Siri was made bu Apple and is being phased put"
+              />
             </div>
           </div>
         </section>
