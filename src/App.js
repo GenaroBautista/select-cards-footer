@@ -4,16 +4,15 @@ import "bulma/css/bulma.css";
 import AlexaImage from "./images/alexa.png";
 import CortanaImage from "./images/cortana.png";
 import siriImage from "./images/siri.jpeg";
-import Animal from "./componet/Animal";
+import Animal from './Componet/Animal';
+import ProfileCard from "./Componet/ProfileCard.js";
+import SearchBar from './Componet/SearchBar';
 
-import "./App.css";
-
-import ProfileCard from "./componet/ProfileCard";
 
 function App() {
   return (
     <div>
-      <Animal />
+      <Animal  />
 
       <section className="hero is-primary">
         <div className="hero-body">
@@ -21,12 +20,12 @@ function App() {
         </div>
       </section>
 
-      <div className="container">
+       <div className="container">
         <section className="section">
           <div className="columns">
             <div className="column is-4">
               <ProfileCard
-                title="ALexa"
+                title="Alexa"
                 handle="@alexa99"
                 image={AlexaImage}
                 description="Alexa was created by Amazon and helps you buy things,"
@@ -47,12 +46,15 @@ function App() {
                 title="Siri"
                 handle="@Siri01"
                 image={siriImage}
-                description="Siri was made bu Apple and is being phased put"
+                description="Siri was made bu Apple and is being phased put."
               />
             </div>
           </div>
         </section>
-      </div>
+      </div> 
+    < SearchBar />
+
+
     </div>
   );
 }

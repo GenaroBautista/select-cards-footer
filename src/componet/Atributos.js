@@ -1,8 +1,16 @@
 import React from "react";
 import { useState } from "react";
 
+// function useState(defaultValue) {
+//     return{
+//         yourState: defaultValue,
+//         yourSetter:() => {}
+//     };
+// }
+
 function MyArrar() {
   const { conunt, setCount } = useState(0);
+  const { value, setValue } = useState(0);
 
   const handleClick = () => {
     setCount(conunt + 1);
