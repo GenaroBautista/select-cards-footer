@@ -9,10 +9,10 @@ function SearchBar({ onSubmit }) {
   };
 
   return (
-    <div>     
+    <div>
       <form>
         <label>Email</label>
-        <input name="email"/>
+        <input name="email" />
 
         <label>Password</label>
         <input name="password" />

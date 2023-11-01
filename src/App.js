@@ -4,23 +4,21 @@ import "bulma/css/bulma.css";
 import AlexaImage from "./images/alexa.png";
 import CortanaImage from "./images/cortana.png";
 import siriImage from "./images/siri.jpeg";
-import Animal from './Componet/Animal';
+import Animal from "./Componet/Animal";
 import ProfileCard from "./Componet/ProfileCard.js";
-import SearchBar from './Componet/SearchBar';
-
-
+import SearchBar from "./Componet/SearchBar";
+import Book from "./Componet/Book/Book";
+//import "./index";
 function App() {
   return (
     <div>
-      <Animal  />
-
+      <Animal />
       <section className="hero is-primary">
         <div className="hero-body">
           <p>Personal Digital Assistants</p>
         </div>
       </section>
-
-       <div className="container">
+      <div className="container">
         <section className="section">
           <div className="columns">
             <div className="column is-4">
@@ -51,10 +49,10 @@ function App() {
             </div>
           </div>
         </section>
-      </div> 
-    < SearchBar />
-
-
+      </div>
+      <SearchBar />
+      {/* <br></br>
+      <Book />  */}
     </div>
   );
 }
