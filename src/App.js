@@ -7,7 +7,9 @@ import siriImage from "./images/siri.jpeg";
 import Animal from "./Componet/Animal";
 import ProfileCard from "./Componet/ProfileCard.js";
 import SearchBar from "./Componet/SearchBar";
-import Book from "./Componet/Book/Book";
+//import Book from "./Componet/Book/Book";
+//import Concep from "./Componet/Book/Conceptos/Concep";
+
 //import "./index";
 function App() {
   return (
@@ -52,7 +54,8 @@ function App() {
       </div>
       <SearchBar />
       {/* <br></br>
-      <Book />  */}
+      <Book /> 
+       <Concep /> */}
     </div>
   );
 }
