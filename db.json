@@ -15,5 +15,11 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "books":[
+    {
+    "id": 1,
+    "title": "Harry Potter"
   }
+  ]
 }
