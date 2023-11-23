@@ -1,11 +1,11 @@
 /** @format */
 import React from "react";
 import "bulma/css/bulma.css";
-import AlexaImage from "./images/alexa.png";
-import CortanaImage from "./images/cortana.png";
-import siriImage from "./images/siri.jpeg";
-import Animal from "./Componet/Animal";
-import ProfileCard from "./Componet/ProfileCard.js";
+//import CortanaImage from "./images/cortana.png";
+//import siriImage from "./images/siri.jpeg";
+import Animal from "./Componet/Attrib/Animal.js";
+//import ProfileCard from "./Componet/Attrib/ProfileCard.js ";
+import Button from "./Componet/Button/Button.js";
 
 //mport SearchBar from "./Componet/SearchBar";
 //import Book from "./Componet/Book/Book";
@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Animal />
-      <section className="hero is-primary">
+      {/* <section className="hero is-primary">
         <div className="hero-body">
           <p>Personal Digital Assistants</p>
         </div>
@@ -52,6 +52,31 @@ function App() {
             </div>
           </div>
         </section>
+      </div> */}
+
+      <br></br>
+      <div>
+        <Button purpose="primary" danger outline>
+          Click me!
+        </Button>
+      </div>
+      <div>
+        <Button danger outline>
+          Buy Now!
+        </Button>
+      </div>
+      <div>
+        <Button warning>See Deal!</Button>
+      </div>
+      <div>
+        <Button secundary outline>
+          Hide Ads!
+        </Button>
+      </div>
+      <div>
+        <Button secundary rounded>
+          Something!
+        </Button>
       </div>
 
       {/* <br></br>
